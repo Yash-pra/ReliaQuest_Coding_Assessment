@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
  * @implNote It's uncommon to have a web controller implement an interface; We include such design pattern to
  * ensure users are following the desired input/output for our API contract, as outlined in the code assessment's README.
  *
- * @param <Entity> object representation of an Employee
+ * @param <Entity>> object representation of an Employee
  * @param <Input> object representation of a request body for creating Employee(s)
  */
 public interface IEmployeeController<Entity, Input> {
